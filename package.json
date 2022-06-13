@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-starter",
+  "name": "netlify-cms-auth-provider",
   "version": "1.0.0",
-  "description": "Simple Node.js application",
+  "description": "netlify-cms-auth-provider application",
   "license": "EPL-2.0",
   "scripts": {
     "start": "node server.js",
@@ -12,6 +12,9 @@
     "express": "^4.17.1",
     "pino": "^6.2.1",
     "pino-http": "^5.1.0",
-    "prom-client": "^12.0.0"
+    "prom-client": "^12.0.0",
+    "dotenv": "^2.0.0",
+    "randomstring": "^1.1.5",
+    "simple-oauth2": "^1.2.0"
   }
 }
